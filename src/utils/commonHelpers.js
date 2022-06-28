@@ -139,7 +139,7 @@ function absolute(path, $) {
 
 function load(html, url) {
   html = html || '';
-  let $ = html.html ? html : cheerio.load(html);
+  let $ = html.html ? html : cheerio.load(html, null, false);
   if (url) $ = absolute(url, $);
   return $;
 }

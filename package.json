@@ -24,7 +24,7 @@
   ],
   "dependencies": {
     "bluebird": "^3.5.1",
-    "cheerio": "~0.22.0",
+    "cheerio": "^1.0.0-rc.12",
     "debug": "~3.1.0",
     "enqueue": "^1.0.2",
     "enstore": "^1.0.1",
@@ -34,15 +34,15 @@
     "isobject": "~3.0.0",
     "ms": "^2.1.1",
     "superagent": "^3.8.2",
-    "superagent-proxy": "^2.0.0",
+    "superagent-proxy": "^3.0.0",
     "wrap-fn": "^0.1.5"
   },
   "devDependencies": {
     "concat-stream": "^1.6.1",
-    "eslint": "^4.18.2",
+    "eslint": "^8.18.0",
+    "jest": "^28.1.1",
     "multiline": "1.0.2",
-    "rimraf": "^2.6.2",
-    "jest": "^22.4.2"
+    "rimraf": "^2.6.2"
   },
   "scripts": {
     "test": "jest",
